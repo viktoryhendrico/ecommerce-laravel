@@ -21,7 +21,7 @@
         <header>
             <div class="container">
                 <div class="row top-part">
-                    <div class="col-sm-3 col-md-3">
+                    <div class="col-sm-3 col-md-4">
                         <a href="{{ lang_url('/') }}" class="logo-container">
                             <img src="{{asset('storage/ExtractiLogo.png')}}" class="img-responsive logo" alt="{{ $head_title }}">
                         </a>
@@ -34,17 +34,17 @@
                             </a>
                         </form>
                     </div>
-                    <div class="col-sm-3 col-md-3">
+                    <!-- <div class="col-sm-3 col-md-3">
                         <div class="phone-call">
-                            <!-- <img src="{{ asset('img/phone.png') }}" alt="{{ $head_title }}"> -->
+                            <img src="{{ asset('img/phone.png') }}" alt="{{ $head_title }}">
                             <div class="right">
-                                <!-- <p>{{__('public_pages.phone_order')}}</p> -->
-                                <!-- <span>0888 888 888</span> -->
+                                <p>{{__('public_pages.phone_order')}}</p>
+                                <span>0888 888 888</span>
                             </div>
                             <div class="clearfix"></div>
                         </div>
-                    </div>
-                    <div class="col-sm-3 col-md-2">
+                    </div> -->
+                    <div class="col-sm-4 col-md-4">
                         <div class="user">
                             <a href="javascript:void(0);" class="cart-button">
                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i> 
@@ -108,6 +108,8 @@
                             <li><a href="{{ lang_url('products') }}">{{__('public_pages.products')}}</a></li>
                             <li><a href="{{ lang_url('checkout') }}">{{__('public_pages.checkout')}}</a></li>
                             <li><a href="{{ lang_url('contacts') }}">{{__('public_pages.contacts')}}</a></li>
+                            <li><a href="{{ lang_url('aboutus') }}">{{__('public_pages.aboutus')}}</a></li>
+
                         </ul>
                         <div class="nav navbar-nav navbar-right">
                             <div class="dropdown">
@@ -208,6 +210,8 @@
                 <li><a href="{{ lang_url('products') }}">{{__('public_pages.products')}}</a></li>
                 <li><a href="{{ lang_url('checkout') }}">{{__('public_pages.checkout')}}</a></li>
                 <li><a href="{{ lang_url('contacts') }}">{{__('public_pages.contacts')}}</a></li>
+                <li><a href="{{ lang_url('aboutus') }}">{{__('public_pages.aboutus')}}</a></li>
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                         {{ app()->getLocale() }}

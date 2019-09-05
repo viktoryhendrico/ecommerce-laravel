@@ -25,6 +25,7 @@ return [
     'products' => 'Products',
     'checkout' => 'Checkout',
     'contacts' => 'Contacts',
+    'aboutus' => 'About Us',
     'category_name' => 'Category:',
     'in_stock' => 'in stock',
     'out_of_stock' => 'out of stock',

@@ -48,6 +48,11 @@ Route::get('contacts', 'Publics\\ContactsController@index');
 Route::get('{locale}/contacts', 'Publics\\ContactsController@index')
         ->where('locale', implode('|', Config::get('app.locales')));
 
+// open contacts
+Route::get('aboutus', 'Publics\\AboutusController@index');
+Route::get('{locale}/aboutus', 'Publics\\AboutusController@index')
+        ->where('locale', implode('|', Config::get('app.locales')));
+
 // send message from contacts
 Route::post('contacts', 'Publics\\ContactsController@sendMessage');
 Route::post('{locale}/contacts', 'Publics\\ContactsController@sendMessage')
