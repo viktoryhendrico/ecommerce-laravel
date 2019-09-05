@@ -109,7 +109,7 @@
                             <li><a href="{{ lang_url('checkout') }}">{{__('public_pages.checkout')}}</a></li>
                             <li><a href="{{ lang_url('contacts') }}">{{__('public_pages.contacts')}}</a></li>
                         </ul>
-                        <!-- <div class="nav navbar-nav navbar-right">
+                        <div class="nav navbar-nav navbar-right">
                             <div class="dropdown">
                                 <button class="btn btn-lang dropdown-toggle" type="button" data-toggle="dropdown">
                                     {{ app()->getLocale() }}
@@ -121,7 +121,7 @@
                                     @endforeach
                                 </ul>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -145,21 +145,18 @@
                             <ul>
                                 <li class="header">Toko Putra Reban Kendal</li>
                                 <li><a href="">About us</a></li>
-                                <!-- <li><a href="">Firm info</a></li> -->
                             </ul>
                         </div>
                         <div class="col-xs-6 col-sm-3">
                             <ul>
                                 <li class="header">Toko Putra Reban Kendal</li>
                                 <li><a href="">About us</a></li>
-                                <!-- <li><a href="">Firm info</a></li> -->
                             </ul>
                         </div>
                         <div class="col-xs-6 col-sm-3">
                             <ul>
                                 <li class="header">Toko Putra Reban Kendal</li>
                                 <li><a href="">About us</a></li>
-                                <!-- <li><a href="">Firm info</a></li> -->
                             </ul>
                         </div>
 
