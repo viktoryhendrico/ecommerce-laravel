@@ -112,7 +112,7 @@
 
                         </ul>
                         <div class="nav navbar-nav navbar-right">
-                            <div class="dropdown">
+                            <!-- <div class="dropdown">
                                 <button class="btn btn-lang dropdown-toggle" type="button" data-toggle="dropdown">
                                     {{ app()->getLocale() }}
                                     <span class="caret"></span>
@@ -122,7 +122,7 @@
                                     <li><a href="{{url(getSameUrlInOtherLang($locale))}}">{{$locale}}</a></li>
                                     @endforeach
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

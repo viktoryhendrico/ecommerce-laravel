@@ -48,7 +48,7 @@ Route::get('contacts', 'Publics\\ContactsController@index');
 Route::get('{locale}/contacts', 'Publics\\ContactsController@index')
         ->where('locale', implode('|', Config::get('app.locales')));
 
-// open contacts
+// open aboutus
 Route::get('aboutus', 'Publics\\AboutusController@index');
 Route::get('{locale}/aboutus', 'Publics\\AboutusController@index')
         ->where('locale', implode('|', Config::get('app.locales')));
